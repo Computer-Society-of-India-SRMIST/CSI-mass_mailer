@@ -14,7 +14,7 @@ app.secret_key = "supersecretkey"
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
 SENDER_EMAIL = 'csi.srmist@gmail.com'
-SENDER_PASSWORD = 'flts aixn xunt sias'  # Use an app-specific password for Gmail
+SENDER_PASSWORD = ''  # Use an app-specific password for Gmail
 
 def send_email(recipient_email, subject, body, attachments=None):
     try:
